@@ -15,4 +15,4 @@ app.use("/user", UserRoute)
 
 app.use("/posts", PostRoute)
 
-app.listen(process.env.SERVER_PORT, connectToServer)
+app.listen(8080, connectToServer)
